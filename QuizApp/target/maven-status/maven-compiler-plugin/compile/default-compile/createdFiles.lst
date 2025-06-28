@@ -1,0 +1,7 @@
+com\ltd\quizapp\PrimaryController.class
+com\ltd\quizapp\QuestionController.class
+module-info.class
+com\ltd\utils\MyAlert.class
+com\ltd\pojo\Category.class
+com\ltd\quizapp\App.class
+com\ltd\quizapp\SecondaryController.class
