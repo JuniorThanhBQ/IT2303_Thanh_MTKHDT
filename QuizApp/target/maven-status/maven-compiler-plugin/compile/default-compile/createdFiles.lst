@@ -1,3 +1,4 @@
+com\ltd\utils\JdbcConnector.class
 com\ltd\quizapp\PrimaryController.class
 com\ltd\quizapp\QuestionController.class
 module-info.class

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="510.0" styleClass="Main" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dht.quizapp.PraticeController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="LUYEN TAP" />
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="Main">
+         <children>
+            <TextField />
+            <Button mnemonicParsing="false" text="Bat dau" />
+         </children>
+      </HBox>
+      <Text fx:id="txtContent" strokeType="OUTSIDE" strokeWidth="0.0" text="..." />
+      <VBox fx:id="VboxChoices" prefHeight="200.0" prefWidth="100.0" styleClass="Main" />
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="Main">
+         <children>
+            <Button mnemonicParsing="false" styleClass="Button" text="Kiem tra cau hoi" />
+            <Button mnemonicParsing="false" styleClass="Button" text="&gt;&gt;" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

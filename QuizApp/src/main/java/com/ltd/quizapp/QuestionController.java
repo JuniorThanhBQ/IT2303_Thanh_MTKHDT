@@ -53,7 +53,7 @@ public class QuestionController implements Initializable {
             conn.close();
             
             this.cbCates.setItems(FXCollections.observableList(cates));
-        } catch (ClassNotFoundException | SQLException ex) {
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }    
